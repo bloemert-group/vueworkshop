@@ -1,0 +1,59 @@
+{
+  "name": "bloemert-vue-workshop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue/babel-preset-app": "~4.5.8",
+    "axios": "0.21.0",
+    "babel-runtime": "6.26.0",
+    "core-js": "^3.7.0",
+    "joi": "^17.3.0",
+    "prismjs": "1.22.0",
+    "vue": "^2.6.12",
+    "vue-markdown": "2.2.4",
+    "vuex": "3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@vue/cli-plugin-eslint": "~4.5.8",
+    "@vue/cli-service": "~4.5.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "not dead"
+  ],
+  "_id": "bloemert-vue-workshop@0.1.0",
+  "keywords": [],
+  "readme": "ERROR: No README data found!"
+}
