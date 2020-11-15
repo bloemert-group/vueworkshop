@@ -117,12 +117,11 @@ Note that, when creating elements in a loop, every (root) element you create req
 
 Hints:
 
-- Use the `getItemsPerMonth` helper function in a _computed property_. The `getItemsPerMonth` function can be found in helpers.js and expects two parameters: year and month.
-
+- Use the `getItemsPerMonth` helper function in a _computed property_. The `getItemsPerMonth` function can be found in helpers.js and expects two parameters: this.year and this.month.
 ```html
 <script>
-  import { getItemsPerMonth } from "../helpers";
-  ...
+import { getFullMonthName, getItemsPerMonth } from "../helpers";
+...
 </script>
 ```
 
