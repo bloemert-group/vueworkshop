@@ -1,4 +1,6 @@
-## Step 6: Next Level
+## Step 7: Next Level
+
+If there is some time left, try beneath assignments...
 
 <i class="far fa-hand-point-down fa-2x"></i>
 

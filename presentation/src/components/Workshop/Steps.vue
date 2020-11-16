@@ -22,9 +22,10 @@
               <option value="Step-5_State_Management.md">
                 Step 5 - State Management
               </option>
-              <option value="Step-6_Next_Level.md">Step 6 - Next Level</option>
-              <option value="Step-9_Use_Vue_CLI.md">
-                Step 9 - Use Vue CLI
+              <option value="Step-6_Routing.md">Step 6 - Routing</option>
+              <option value="Step-7_Next_Level.md">Step 7 - Next Level</option>
+              <option value="Step-8_Offline_Workshop_Version.md">
+                Step 8 - Offline Workshop Version
               </option>
             </select>
           </div>
