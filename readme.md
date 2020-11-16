@@ -23,3 +23,5 @@ The only 2 dependencies are, that you have NodeJS/NPM version 10+, and a Git cli
    npm run serve
    ```   
    And open in browser: http://localhost:8081/
+
+Follow the Workshop presentation, guidelines, and assignments(Todo's) at http://vue.bloemert.com
