@@ -23,7 +23,9 @@ export default {
     ...mapGetters("appointment", { selectedDate: "getSelectedDate" }),
   },
   created() {
-    this.loadAppointments();
+    if ( this.appointments.length <= 0 ) {
+      this.loadAppointments();
+    }
 
     this.setSelectedDate(this.$route.params.seldate ? moment(this.$route.params.seldate, 'DD-MM-YYYY') : moment());
   },

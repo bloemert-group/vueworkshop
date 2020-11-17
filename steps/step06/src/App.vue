@@ -1,18 +1,13 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <Agenda/>
+    <router-view name="top"></router-view>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Agenda from "./components/Agenda";
-
 export default {
-  name: "App",
-  components: {
-    Agenda
-  }
+  name: "App"
 };
 </script>
 
