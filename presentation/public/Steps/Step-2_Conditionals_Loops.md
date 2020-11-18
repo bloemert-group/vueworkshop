@@ -108,6 +108,31 @@ Note that, when creating elements in a loop, every (root) element you create req
 
 ## Todo(s)
 
+### 0. Do you got a moment...
+
+Our helper functions use moment.js and therefore you need to include it in the script part of your .vue file:
+```javascript
+import moment from 'moment';
+```
+Some functions you may want to use:
+| Moment.js function                      | Description                                                         |
+|-----------------------------------------|---------------------------------------------------------------------|
+| moment()                                | Create moment instance with current date & time.                    |
+| momentObj.toDate()                      | Get the javascript Date instance.                                   |
+| moment(new Date())                      | From Javascript Date to moment instance.                            |
+| momentObj.valueOf()                     | "Serialize" moment instance to epoch in number                      |
+| moment(mynumber)                        | From epoch number moment instance. (Deserialize)                    |
+| momentObj.isSame(otherMomentObj, 'day') | Check two moment instances if they are in the same day.             |
+| momentObj.year(<set number>)            | Get or Set the year as number.                                      |
+| momentObj.month(<set number>)           | Get or Set the month as number. Starting at 0 for Jan.!             |
+| momentObj.date(<set number>)            | Get or Set the day of the month. 1 to 31                            |
+| momentObj.day(<set number>)             | Get or Set the day of the week as number. Starting at 0 for Sunday! |
+
+NOTE: Take in mind that moment.js its instances are mutable!
+
+See <a href="https://momentjs.com/docs/#/use-it/" target="_blank">Moment.js documentation</a> for details.
+
+
 ### 1. Create a _computed property_ that gets the name of the month.
 
 - Use the `getFullMonthName` helper function in a _computed property_ named _monthName_. The `getFullMonthName` function can be found in helpers.js and expects a single parameter: month.

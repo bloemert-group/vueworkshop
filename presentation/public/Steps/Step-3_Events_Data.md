@@ -79,7 +79,12 @@ Hint: for this, we will need to add state to our component:
 
 You can reference the component state in your method using `this.selectedDate`.
 
-- Create a style class and add it to the selected date, so the user can see which date is selected.
+- Create a style class and add it to the selected date, so the user can see which date is selected. E.g. using bloemer's gold color:
+```css
+.day.selected {
+  background-color: #bc9550;
+}
+```
 
 Hint: in properties, you do not need to include `this` when referencing state.
 
