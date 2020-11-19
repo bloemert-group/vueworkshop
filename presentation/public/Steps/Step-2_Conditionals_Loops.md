@@ -8,11 +8,7 @@ Computed values allow you to specify a function in the component that does somet
 </template>
 
 <script>
-  var vm = new Vue({
-    el: "#example",
-    data: {
-      message: "Hello"
-    },
+  ...
     computed: {
       reversedMessage: function() {
         return this.message
@@ -21,7 +17,7 @@ Computed values allow you to specify a function in the component that does somet
           .join("");
       }
     }
-  });
+  ...
 </script>
 ```
 
@@ -121,7 +117,7 @@ Some functions you may want to use:
 | momentObj.toDate()                      | Get the javascript Date instance.                                   |
 | moment(new Date())                      | From Javascript Date to moment instance.                            |
 | momentObj.valueOf()                     | "Serialize" moment instance to epoch in number                      |
-| moment(mynumber)                        | From epoch number moment instance. (Deserialize)                    |
+| moment(mynumber)                        | From epoch number to moment instance. (Deserialize)                 |
 | momentObj.isSame(otherMomentObj, 'day') | Check two moment instances if they are in the same day.             |
 | momentObj.year(<set number>)            | Get or Set the year as number.                                      |
 | momentObj.month(<set number>)           | Get or Set the month as number. Starting at 0 for Jan.!             |
